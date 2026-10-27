@@ -1,0 +1,15 @@
+tables:
+HistoryOfEvents->Login,Logout,Purchasal,Benefits updates,Jewellery updates,Setting reminders,Trigger reminder,Jewellery claims and selling held digital jewelleries,Manage Vendors.
+EventID,Name,Time
+
+Transaction->Jewelleries purchases,jewelleries claimed.
+JewelID,Product,Price,Quantity,Total Price,TransactionType,DateOfTransaction
+
+Login/Logouts->UserName,LoginTime,LastActive,isSuccessfull
+
+Jewelleries->JewelID,JewelType,Description,Quantity,Price,Vendor,JewelPicture
+Benefits->id,benefitName,benefitDescription,benefitLastDate
+Reminder->ReminderId,UserName,DateSet,DateToRemind,Status
+Vendors->VendorId,VendorName,VendorDescription
+VendorDeals->VendorId,VendorName,JewelID,JewelType,Quantity,Price,TotalPrice,DateOfDeal,CreditDuration,PaymentDate
+
